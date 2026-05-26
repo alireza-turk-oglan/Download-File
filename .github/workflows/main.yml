@@ -13,7 +13,7 @@ jobs:
 
       - name: Download Gradle
         run: |
-          wget https://services.gradle.org/distributions/gradle-8.7.0-all.zip
+          wget https://services.gradle.org/distributions/gradle-8.7-all.zip
 
       - name: Create Release
         id: create_release
